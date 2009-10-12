@@ -1,4 +1,4 @@
-= wac - Windows ANSI Color
+h1 wac - Windows ANSI Color
 
 wac.exe is a small command line utility that lets you use ANSI colors on Windows. This will print nice colours:
 
