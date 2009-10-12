@@ -1,6 +1,6 @@
 h1. wac - Windows ANSI Color
 
-wac.exe is a small command line utility that lets you use ANSI colors on Windows. This will print nice colours:
+wac.exe is a small command line utility that lets you use ANSI colors on Windows. This will print nice colors:
 
 <pre>
 printcol.bat | wac
@@ -15,7 +15,7 @@ printcol.bat
 h2. Why wac?
 
 Some command line tools (like "Cucumber":http://cukes.info) like to print ANSI colors.
-Since Windows has no idea what ANSI colours are, all you'll see is gibberish. Unless
+Since Windows has no idea what ANSI colors are, all you'll see is gibberish. Unless
 you use wac.
 
 h2. But we have Win32::Console
@@ -43,7 +43,7 @@ gcc -o wac wac.c
 
 h2. Why is it in C?
 
-Because it's easy to change colours on Windows with C.
+Because it's easy to change colors on Windows with C.
 
 h2. Why is the C code so bad?
 
