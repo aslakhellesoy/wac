@@ -2,11 +2,15 @@ h1. wac - Windows ANSI Color
 
 wac.exe is a small command line utility that lets you use ANSI colors on Windows. This will print nice colours:
 
-  printcol.bat | wac
+<pre>
+printcol.bat | wac
+</pre>
 
 This will not:
 
-  printcol.bat
+<pre>
+printcol.bat
+</pre>
 
 h2. Why wac?
 
@@ -20,9 +24,9 @@ I know that Perl, Ruby, Python etc have native libraries that will do ANSI color
 but not all platforms have that. If you're using e.g. JRuby on Windows there is no such
 library. So wac will save you.
 
-h2. Installation
+h2. Download/Installation
 
-Just download wac.exe and put it somewhere on your PATH.
+Just download "wac.exe":http://github.com/aslakhellesoy/wac/raw/master/wac.exe and put it somewhere on your PATH.
 
 h2. How does it work?
 
@@ -33,7 +37,9 @@ h2. How do I build it?
 
 Just get MinGW and run:
 
-  gcc -o wac wac.c
+<pre>
+gcc -o wac wac.c
+</pre>
 
 h2. Why is it in C?
 
